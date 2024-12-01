@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edily Mora - Software Developer</title>
+    <link rel="stylesheet" href="/style/style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="name-header" >EDILY MORa - DESaRROLLaDORa wEB</span>
+            <ul class="menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#mis-trabajos">Mis trabajos</a></li>
+                <li><a href="#contact">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Video + inicio -->
+    <section id="home">
+        <video autoplay muted loop id="myVideo">
+                <!-- <source src="./assets/video.mov" type="video/mp4"> -->
+                <source src="https://videos.pexels.com/video-files/8721932/8721932-uhd_2732_1440_25fps.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+        </video>
+        <section class="section-video one">
+            <h1><i>Portafolio Profesional</i></h1>
+            <span class="span-video"><i>Soluciones innovadoras en software</i></span>
+            <br/>
+            <button class="btn-head">Mis Servicios</button>
+        </section>
+         <!-- Inicio -->
+        <section class="section two">
+                <h2>Bienvenidos a mi Portafolio</h2>
+                <div class="container-info-dividida" >    
+                    <div class="hermano-isquierdo">
+                        <p>Hola, soy Edily Mora, una desarrolladora de software apasionada por crear soluciones tecnológicas modernas, eficientes y adaptadas a las necesidades de cada cliente. Este sitio está diseñado para compartir mi experiencia, habilidades y proyectos que destacan mi enfoque en el desarrollo de aplicaciones innovadoras.</p>
+                        <p>En este portafolio encontrarás una visión detallada de mi trayectoria profesional, una lista de los servicios que ofrezco y ejemplos de proyectos que he realizado. Además, podrás ponerte en contacto conmigo para discutir cómo puedo ayudarte a transformar tus ideas en soluciones prácticas.</p>
+                        <p>¡Te invito a explorar mi portafolio y a descubrir cómo la tecnología puede marcar la diferencia en tus proyectos!</p>
+                        <p>Hola, soy Edily Mora, una desarrolladora de software apasionada por crear soluciones tecnológicas modernas, eficientes y adaptadas a las necesidades de cada cliente. Este sitio está diseñado para compartir mi experiencia, habilidades y proyectos que destacan mi enfoque en el desarrollo de aplicaciones innovadoras.</p>
+                        <p>En este portafolio encontrarás una visión detallada de mi trayectoria profesional, una lista de los servicios que ofrezco y ejemplos de proyectos que he realizado. Además, podrás ponerte en contacto conmigo para discutir cómo puedo ayudarte a transformar tus ideas en soluciones prácticas.</p>                   
+                    </div>
+
+                    <div class="hermano-derecho">
+                        <img src="../assets/girlProgramming.jpg" alt="Edily Mora trabajando en desarrollo de software" width="400" height="600">
+                    </div>
+            </div>
+        </section>
+    </section>
+
+
+    <section id="mis-trabajos">
+            <section class="section two">
+                <h2>Mis trabajos</h2>
+                <div class="container-info-full" >
+            <p>Soy una software developer con experiencia en desarrollo web y diseño UI/UX. En esta sección puedes ver algunos de sus trabajos realizados.</p>
+       
+            <div id="proyectos-container"></div>
+        </div>
+        </section>
+        </section>
+
+        <section class="section two"  id="contact">
+                <h2>Contactame!</h2>
+                <form id="contact-form">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message" id="name-error">Nombre inválido</span>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message" id="email-error">Email inválido</span>
+                
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <span class="error-message" id="message-error">Mensaje inválido</span>
+                    <br/>
+                    <button class="btn-head" type="submit">Enviar</button>
+                </form>
+        </section>
+    
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="/js/script.js"></script>
+</body>
+
+</html>

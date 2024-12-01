@@ -1,0 +1,22 @@
+{
+    "proyectos": [
+      {
+        "titulo": "Transacciones y Efectos Inmersivos",
+        "descripcion": "Este es un proyecto de comercio electrónico desarrollado con React y Node.js.",
+        "imagen": "https://via.placeholder.com/300x200.png?text=Proyecto+1",
+        "url": "https://learning-js-ten.vercel.app/"
+      },
+      {
+        "titulo": "E-commerce",
+        "descripcion": "Una aplicación de gestión de tareas creada con Vue.js y Firebase.",
+        "imagen": "https://via.placeholder.com/300x200.png?text=Proyecto+2",
+        "url": "https://learning-js-ten.vercel.app/"
+      },
+      {
+        "titulo": "Blog Informativo",
+        "descripcion": "Un sitio web responsivo para un restaurante local utilizando HTML, CSS y JavaScript.",
+        "imagen": "https://via.placeholder.com/300x200.png?text=Proyecto+3",
+        "url": "https://learning-js-ten.vercel.app/"
+      }
+    ]
+  }
